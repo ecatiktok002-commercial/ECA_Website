@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --color-tertiary-container: #823f3a;
+  --color-secondary-container: #a6f2cf;
+  --color-secondary-fixed: #a6f2cf;
+  --color-on-error-container: #93000a;
+  --color-surface-bright: #f7faf6;
+  --color-on-tertiary-fixed-variant: #73332f;
+  --color-on-primary-fixed: #002116;
+  --color-on-secondary-container: #247155;
+  --color-surface-variant: #e0e3df;
+  --color-tertiary-fixed-dim: #ffb3ac;
+  --color-on-tertiary: #ffffff;
+  --color-primary: #004532;
+  --color-inverse-primary: #8bd6b6;
+  --color-outline-variant: #bec9c2;
+  --color-surface-tint: #1b6b51;
+  --color-primary-container: #065f46;
+  --color-surface-container-high: #e6e9e5;
+  --color-surface-container-lowest: #ffffff;
+  --color-tertiary-fixed: #ffdad6;
+  --color-surface-container-highest: #e0e3df;
+  --color-outline: #6f7973;
+  --color-on-background: #181c1a;
+  --color-on-secondary-fixed: #002115;
+  --color-surface-dim: #d8dbd7;
+  --color-surface-container: #ecefeb;
+  --color-surface: #f7faf6;
+  --color-surface-container-low: #f1f4f0;
+  --color-on-primary-fixed-variant: #00513b;
+  --color-error-container: #ffdad6;
+  --color-primary-fixed-dim: #8bd6b6;
+  --color-inverse-surface: #2d312f;
+  --color-on-primary: #ffffff;
+  --color-tertiary: #652925;
+  --color-primary-fixed: #a6f2d1;
+  --color-on-surface-variant: #3f4944;
+  --color-on-primary-container: #8bd6b7;
+  --color-on-error: #ffffff;
+  --color-background: #f7faf6;
+  --color-error: #ba1a1a;
+  --color-on-secondary-fixed-variant: #00513a;
+  --color-secondary-fixed-dim: #8bd6b4;
+  --color-on-tertiary-container: #ffb4ad;
+  --color-on-tertiary-fixed: #3b0908;
+  --color-inverse-on-surface: #eef2ed;
+  --color-on-secondary: #ffffff;
+  --color-on-surface: #181c1a;
+  --color-secondary: #1b6b4f;
+
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Manrope", sans-serif;
+  --font-label: "Manrope", sans-serif;
+
+  --radius-DEFAULT: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+}
+
+h1, h2, h3, h4, h5, h6, .font-headline {
+  font-family: var(--font-headline);
+}
+
+.emerald-bloom {
+  box-shadow: 0 40px 60px -15px rgba(0, 69, 50, 0.06);
+}
