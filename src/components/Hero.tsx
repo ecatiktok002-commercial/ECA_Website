@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative min-h-[921px] flex items-center overflow-hidden bg-gradient-to-br from-primary to-primary-container">
+    <section className="relative min-h-[750px] flex items-center overflow-hidden bg-gradient-to-br from-primary to-primary-container">
       <div className="absolute inset-0 opacity-40">
         <img
           className="w-full h-full object-cover"
