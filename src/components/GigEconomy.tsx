@@ -9,8 +9,8 @@ export default function GigEconomy() {
             <div className="aspect-square bg-surface-container-low rounded-[2rem] overflow-hidden emerald-bloom">
               <img
                 className="w-full h-full object-cover"
-                alt="modern electric delivery bike parked in a vibrant clean urban city street"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBV47YOb8kMltONHqg7A70Y4O01J5zrBuY6llJ5l22sypiJgoJQNNAs9A4DaPGSGaekc1wxEZGhvqrkaO5cm6lcDYrsYGmkmKiRu7RdvE88Q4YW4BZ3u4HPbHT7N3OAt2aVXH_LS9NLRd_G0ATuQ2yx8oP1WtCEz1fRTOWP9hkrWGt_XbQiNM3trYpMKQgOfN3JDeGKtr32u2RLB2IOmHznKUT-40Uee-4ZWUdfX1X0zqTgh3yP4LtiLMng8SjivnO-B5sa5Wzn2hM"
+                alt="Gig economy partner"
+                src="/section3.png"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-white p-8 rounded-xl shadow-xl max-w-xs border-l-4 border-secondary">

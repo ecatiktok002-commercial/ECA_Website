@@ -25,9 +25,9 @@ const itemVariants = {
 };
 
 const glowVariants = {
-  initial: { opacity: 0.3, scale: 0.8 },
+  initial: { opacity: 0.4, scale: 0.8 },
   animate: {
-    opacity: [0.3, 0.6, 0.3],
+    opacity: [0.4, 0.8, 0.4],
     scale: [0.8, 1.2, 0.8],
     transition: {
       duration: 4,
@@ -51,13 +51,13 @@ export default function VisionMission() {
         variants={glowVariants}
         initial="initial"
         animate="animate"
-        className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/5 rounded-full blur-[100px] pointer-events-none"
+        className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/20 rounded-full blur-[100px] pointer-events-none"
       />
       <motion.div 
         variants={glowVariants}
         initial="initial"
         animate="animate"
-        className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/5 rounded-full blur-[120px] pointer-events-none"
+        className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-[120px] pointer-events-none"
         style={{ transitionDelay: '2s' }}
       />
 
@@ -78,6 +78,9 @@ export default function VisionMission() {
               <h2 className="text-5xl md:text-6xl font-bold text-primary tracking-tight">
                 Our Vision
               </h2>
+              <p className="text-on-surface-variant text-xl leading-relaxed font-light">
+                To be Malaysia’s premier architect of smart mobility, operational technology, and scalable business ecosystems, setting the gold standard for innovation and collaborative growth.
+              </p>
             </motion.div>
           </div>
 
@@ -105,9 +108,7 @@ export default function VisionMission() {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             >
-              <p className="text-on-surface-variant text-xl leading-relaxed font-light">
-                To be Malaysia’s premier architect of smart mobility, operational technology, and scalable business ecosystems, setting the gold standard for innovation and collaborative growth.
-              </p>
+
             </motion.div>
           </div>
 
