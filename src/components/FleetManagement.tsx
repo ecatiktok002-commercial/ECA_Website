@@ -4,13 +4,13 @@ export default function FleetManagement() {
       <div className="max-w-7xl mx-auto px-8">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <span className="font-label text-primary tracking-widest uppercase text-xs mb-4 block">
-            Fleet Intelligence
+            Where Physical Assets Meet Digital Oversight
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Operational Supremacy
+            Daily Rentals & Intelligent Fleet Management
           </h2>
           <p className="text-on-surface-variant text-lg">
-            Our proprietary SaaS platform provides real-time telemetry, predictive maintenance, and optimized routing for global fleet operators. This level of operational control minimizes downtime, maximizes asset lifespan, and provides absolute transparency. It is exactly this standard of uncompromising operational clarity that naturally draws investors, stakeholders, and industry peers into our ecosystem.
+           At ECA Group, our daily, weekly, and monthly car rental services for private clients are driven by uncompromising quality and safety. However, the secret to our scale lies in our Built-In Fleet Management Architecture. Our proprietary SaaS platform provides real-time telemetry, predictive maintenance, and optimized routing for global fleet operators. This level of operational control minimizes downtime, maximizes asset lifespan, and provides absolute transparency. It is exactly this standard of uncompromising operational clarity that naturally draws investors, stakeholders, and industry peers into our ecosystem.
           </p>
         </div>
         <div className="bg-surface-container-low rounded-3xl p-4 md:p-12 emerald-bloom">
@@ -45,6 +45,7 @@ export default function FleetManagement() {
                 className="w-full h-full object-cover"
                 alt="abstract professional data visualization dashboard"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLASegY4hB21AiSz86v4tFAWLqt9QtWRJg0Pmm8QAzqrvkp4khXaTN-IKGr62KBzrKHI5hJ2GdGhxMalkhkY8OGSiVN7vlJJFhwvCM8wRd0KTg0rTzz2sfdrQ0qZorQOs4EbnxAeuFpKtwlWBZUufMkKsuiWl5tMeh_DwjEaHuT5JtyQ9vrs8Ncy_EyUPl7yGuKEV598HROTW9teP4DrRcKG8NaXOOVaj-p2Ye4ChAGZ4NyKS-HP9sDtHlfMYGo7CAbsPiNcukCtw"
+                referrerPolicy="no-referrer"
               />
             </div>
           </div>

@@ -8,7 +8,7 @@ export default function Hero() {
         <img
           className="w-full h-full object-cover"
           alt="ECA Group Mobility Hub"
-          src="/background2.jpg"
+          src="/background4.png"
           referrerPolicy="no-referrer"
         />
       </div>
@@ -21,13 +21,13 @@ export default function Hero() {
           className="max-w-3xl"
         >
           <span className="font-label text-secondary-fixed tracking-[0.2em] uppercase text-sm mb-6 block">
-            ECA Group Mobility Systems
+            Physical Assets. Digital Intelligence.
           </span>
           <h1 className="text-display-lg md:text-7xl font-bold text-white leading-[1.1] tracking-tight mb-8">
             Engineering the Future of Mobility & Business
           </h1>
           <p className="text-xl text-emerald-100/80 font-body mb-10 max-w-xl leading-relaxed">
-            Defining the next generation of transportation infrastructure through precision engineering, sustainable technology, and human-centric design.
+            Born in logistics, scaled by technology. ECA Group bridges the gap between physical operations and digital transformation evolving from e-hailing pioneers to architects of modern mobility, custom SaaS, and precision marketing.
           </p>
         </motion.div>
       </div>

@@ -30,7 +30,10 @@ export default function Header() {
           <button className="text-primary p-2 hover:bg-primary/5 rounded-full transition-colors">
             <LayoutGrid size={20} />
           </button>
-          <button className="bg-primary text-on-primary px-6 py-2.5 rounded-xl font-headline font-medium transition-all hover:scale-95 duration-200">
+          <button 
+            onClick={() => document.getElementById('footer')?.scrollIntoView({ behavior: 'smooth' })}
+            className="bg-primary text-on-primary px-6 py-2.5 rounded-xl font-headline font-medium transition-all hover:scale-95 duration-200"
+          >
             Contact Us
           </button>
         </div>
