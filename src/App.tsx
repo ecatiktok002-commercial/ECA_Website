@@ -5,6 +5,7 @@
 
 import Header from './components/Header';
 import Hero from './components/Hero';
+import VisionMission from './components/VisionMission';
 import GigEconomy from './components/GigEconomy';
 import Tourism from './components/Tourism';
 import FleetManagement from './components/FleetManagement';
@@ -18,6 +19,7 @@ export default function App() {
       <Header />
       <main className="flex-grow">
         <Hero />
+        <VisionMission />
         <GigEconomy />
         <Tourism />
         <FleetManagement />

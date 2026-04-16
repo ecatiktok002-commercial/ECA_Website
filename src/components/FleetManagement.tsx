@@ -4,48 +4,42 @@ export default function FleetManagement() {
       <div className="max-w-7xl mx-auto px-8">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <span className="font-label text-primary tracking-widest uppercase text-xs mb-4 block">
-            Operational Supremacy
+            Fleet Intelligence
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Daily Rentals & Intelligent Fleet Management
+            Operational Supremacy
           </h2>
           <p className="text-on-surface-variant text-lg">
-            At ECA Group, our daily, weekly, and monthly car rental services for private clients are driven by uncompromising quality and safety. However, the secret to our scale lies in our Built-In Fleet Management Architecture.
+            Our proprietary SaaS platform provides real-time telemetry, predictive maintenance, and optimized routing for global fleet operators. This level of operational control minimizes downtime, maximizes asset lifespan, and provides absolute transparency. It is exactly this standard of uncompromising operational clarity that naturally draws investors, stakeholders, and industry peers into our ecosystem.
           </p>
         </div>
         <div className="bg-surface-container-low rounded-3xl p-4 md:p-12 emerald-bloom">
           <div className="grid lg:grid-cols-12 gap-12">
             <div className="lg:col-span-4 space-y-4">
               <div className="p-6 rounded-2xl bg-white border-l-4 border-primary hover:bg-emerald-50 transition-colors cursor-pointer">
-                <h4 className="font-headline font-bold text-primary mb-1">
-                  Digital Oversight
-                </h4>
+                <h4 className="font-headline font-bold text-primary mb-1">Live Telemetry</h4>
                 <p className="text-sm text-on-surface-variant">
-                  Every vehicle is monitored through proprietary, customized digital systems.
+                  Real-time tracking of vehicle health and location across continents.
                 </p>
               </div>
               <div className="p-6 rounded-2xl bg-transparent hover:bg-white transition-all cursor-pointer">
-                <h4 className="font-headline font-bold text-primary/60 mb-1">
-                  Real-Time Tracking
-                </h4>
+                <h4 className="font-headline font-bold text-primary/60 mb-1">Asset Lifecycle</h4>
                 <p className="text-sm text-on-surface-variant/70">
-                  Track real-time maintenance, insurance renewals, and safety metrics.
+                  Predictive modeling for depreciation and part replacement cycles.
                 </p>
               </div>
               <div className="p-6 rounded-2xl bg-transparent hover:bg-white transition-all cursor-pointer">
-                <h4 className="font-headline font-bold text-primary/60 mb-1">
-                  Absolute Transparency
-                </h4>
+                <h4 className="font-headline font-bold text-primary/60 mb-1">Eco-Analytics</h4>
                 <p className="text-sm text-on-surface-variant/70">
-                  Minimizes downtime, maximizes asset lifespan, and provides confidence to stakeholders.
+                  Measuring carbon offsets and efficiency gains across the fleet.
                 </p>
               </div>
             </div>
             <div className="lg:col-span-8 bg-surface-container-lowest rounded-2xl overflow-hidden relative border border-outline-variant/20 shadow-inner">
               <div className="absolute top-4 left-4 flex gap-2 z-10">
-                <div className="w-3 h-3 rounded-full bg-error/40"></div>
-                <div className="w-3 h-3 rounded-full bg-secondary/40"></div>
-                <div className="w-3 h-3 rounded-full bg-primary/40"></div>
+                <div className="w-3 h-3 rounded-full bg-error/20"></div>
+                <div className="w-3 h-3 rounded-full bg-secondary/20"></div>
+                <div className="w-3 h-3 rounded-full bg-primary/20"></div>
               </div>
               <img
                 className="w-full h-full object-cover"

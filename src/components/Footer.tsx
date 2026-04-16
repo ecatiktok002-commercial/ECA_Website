@@ -5,7 +5,15 @@ export default function Footer() {
     <footer className="bg-emerald-900 dark:bg-emerald-950 w-full py-12 px-8 mt-20">
       <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-7xl mx-auto gap-12">
         <div className="flex flex-col gap-4">
-          <div className="text-xl font-black text-emerald-50">ECA Group</div>
+          <div className="flex items-center gap-3">
+            <img 
+              src="/logo2.png" 
+              alt="ECA Group Logo" 
+              className="h-8 w-auto object-contain brightness-0 invert" 
+              referrerPolicy="no-referrer"
+            />
+            <div className="text-xl font-black text-emerald-50">ECA Group</div>
+          </div>
           <p className="text-emerald-100/60 max-w-xs font-headline text-sm uppercase tracking-widest">
             © 2024 ECA Group. Engineering excellence through precision.
           </p>

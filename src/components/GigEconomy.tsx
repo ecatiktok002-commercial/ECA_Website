@@ -25,13 +25,10 @@ export default function GigEconomy() {
               Empowering the Gig Economy
             </span>
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 tracking-tight">
-              Smart E-Hailing Solutions & The SewaBeli Initiative
+              SewaBeli: Ownership Redefined
             </h2>
-            <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
-              We view our drivers not as renters, but as operational partners. Our Smart E-Hailing Fleet Solutions provide high-quality, perfectly maintained vehicles optimized for the gig economy. But our true differentiator is our SewaBeli (Rent-to-Own) Initiative.
-            </p>
             <p className="text-on-surface-variant text-lg leading-relaxed mb-8">
-              We have engineered a sustainable, shared-economy framework that transforms everyday drivers into vehicle owners by the end of their contract. By prioritizing the financial success of our partners, we ensure unprecedented fleet loyalty, operational stability, and a scalable model that investors and stakeholders can trust.
+              We bridge the gap between labor and capital. Our SewaBeli (Lease-to-Own) model provides independent workers with high-efficiency electric vehicles, transforming daily expenses into long-term assets. By prioritizing the financial success of our partners, we ensure unprecedented fleet loyalty, operational stability, and a scalable model that investors and stakeholders can trust. We continually seek to align with forward-thinking individuals and entities who recognize the long-term value of sustainable, tech-driven economic empowerment.
             </p>
             <div className="space-y-6">
               <div className="flex gap-4 items-start">
@@ -39,9 +36,9 @@ export default function GigEconomy() {
                   <Banknote size={24} />
                 </div>
                 <div>
-                  <h4 className="font-headline font-bold text-primary">Pathway to Ownership</h4>
+                  <h4 className="font-headline font-bold text-primary">Zero-Upfront Entry</h4>
                   <p className="text-on-surface-variant">
-                    Redefining vehicle rental as a sustainable path to long-term asset ownership.
+                    Low-barrier access to professional-grade tools for urban logistics.
                   </p>
                 </div>
               </div>
@@ -50,9 +47,9 @@ export default function GigEconomy() {
                   <Zap size={24} />
                 </div>
                 <div>
-                  <h4 className="font-headline font-bold text-primary">Partner With Us</h4>
+                  <h4 className="font-headline font-bold text-primary">EV Infrastructure</h4>
                   <p className="text-on-surface-variant">
-                    Join an ecosystem that turns mobility into sustainable economic empowerment.
+                    Integrated charging network access ensuring maximum uptime for operators.
                   </p>
                 </div>
               </div>
