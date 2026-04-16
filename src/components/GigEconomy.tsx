@@ -27,10 +27,12 @@ export default function GigEconomy() {
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 tracking-tight">
               SewaBeli: Ownership Redefined
             </h2>
-            <p className="text-on-surface-variant text-lg leading-relaxed mb-8">
+            /*<p className="text-on-surface-variant text-lg leading-relaxed mb-8">
               We bridge the gap between labor and capital. Our SewaBeli (Lease-to-Own) model provides independent workers with high-efficiency electric vehicles, transforming daily expenses into long-term assets. By prioritizing the financial success of our partners, we ensure unprecedented fleet loyalty, operational stability, and a scalable model that investors and stakeholders can trust. We continually seek to align with forward-thinking individuals and entities who recognize the long-term value of sustainable, tech-driven economic empowerment.
+            </p>*/
+            <p className="text-on-surface-variant text-lg leading-relaxed mb-8">At ECA Group, we don't just rent cars; we build operational partners. Our SewaBeli (Rent-to-Own) initiative is a sustainable, shared-economy framework that transforms everyday drivers into vehicle owners by the end of their contract. By prioritizing the financial success of our drivers, we engineer unparalleled fleet loyalty and a highly scalable, tech-driven ecosystem that stakeholders can trust. 
             </p>
-            <div className="space-y-6">
+             <div className="space-y-6">
               <div className="flex gap-4 items-start">
                 <div className="text-secondary bg-secondary-container p-3 rounded-lg">
                   <Banknote size={24} />

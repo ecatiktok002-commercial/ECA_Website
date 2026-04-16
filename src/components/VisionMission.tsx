@@ -62,9 +62,9 @@ export default function VisionMission() {
       />
 
       <div className="max-w-7xl mx-auto px-8 relative z-10">
-        <div className="grid lg:grid-cols-5 gap-x-16 lg:gap-x-24 gap-y-12 items-start">
+        <div className="grid lg:grid-cols-5 gap-x-16 lg:gap-x-24 gap-y-16 items-start">
           
-          {/* Row 1: Headings */}
+          {/* Left Column: Vision */}
           <div className="lg:col-span-2">
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
@@ -72,47 +72,38 @@ export default function VisionMission() {
               viewport={{ once: true }}
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
-              <span className="font-label text-primary tracking-[0.4em] uppercase text-xs mb-4 block font-bold">
-                THE FUTURE
-              </span>
-              <h2 className="text-5xl md:text-6xl font-bold text-primary tracking-tight">
-                Our Vision
-              </h2>
+              <div className="flex items-baseline gap-x-6 mb-8">
+                <span className="font-label text-primary tracking-[0.4em] uppercase text-xs font-bold whitespace-nowrap">
+                  THE FUTURE
+                </span>
+                <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-tight">
+                  Our Vision
+                </h2>
+              </div>
               <p className="text-on-surface-variant text-xl leading-relaxed font-light">
                 To be Malaysia’s premier architect of smart mobility, operational technology, and scalable business ecosystems, setting the gold standard for innovation and collaborative growth.
               </p>
             </motion.div>
           </div>
 
-          <div className="lg:col-span-3">
+          {/* Right Column: Mission & Pillars */}
+          <div className="lg:col-span-3 space-y-16">
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
             >
-              <span className="font-label text-primary tracking-[0.4em] uppercase text-xs mb-4 block font-bold">
-                THE PATH
-              </span>
-              <h2 className="text-5xl md:text-6xl font-bold text-primary tracking-tight">
-                Our Mission
-              </h2>
+              <div className="flex items-baseline gap-x-6 mb-8">
+                <span className="font-label text-primary tracking-[0.4em] uppercase text-xs font-bold whitespace-nowrap">
+                  THE PATH
+                </span>
+                <h2 className="text-3xl md:text-4xl font-bold text-primary tracking-tight">
+                  Our Mission
+                </h2>
+              </div>
             </motion.div>
-          </div>
 
-          {/* Row 2: Content */}
-          <div className="lg:col-span-2">
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-            >
-
-            </motion.div>
-          </div>
-
-          <div className="lg:col-span-3">
             <motion.div 
               initial="hidden"
               whileInView="visible"
@@ -120,12 +111,7 @@ export default function VisionMission() {
               variants={containerVariants}
               className="space-y-8"
             >
-              <motion.p 
-                variants={itemVariants}
-                className="text-secondary font-headline uppercase tracking-[0.2em] text-sm"
-              >
-                Service Pillars
-              </motion.p>
+
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {/* EMPOWER Card */}
