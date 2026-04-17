@@ -1,4 +1,4 @@
-import { Terminal, Shield, Cloud, Network } from 'lucide-react';
+import { Bot, Database, Cloud, Handshake } from 'lucide-react';
 
 export default function DigitalArchitect() {
   return (
@@ -7,50 +7,51 @@ export default function DigitalArchitect() {
         <div className="grid lg:grid-cols-3 gap-12">
           <div className="lg:col-span-1">
             <span className="font-label text-primary tracking-widest uppercase text-xs mb-4 block">
-              Core Infrastructure
+              We Build the Software That Runs Your Business
             </span>
             <h2 className="text-4xl font-bold text-primary mb-6 leading-tight">
-              The Digital Architect
+              Custom SaaS & Digital Transformation
             </h2>
             <p className="text-on-surface-variant mb-8 text-lg">
-              At the foundation of ECA Group lies our digital architecture—robust cloud systems and custom middleware that power every transaction and logistical movement. Whether you need to streamline your inventory, automate your customer service, or build a bespoke booking ecosystem, we translate your operational bottlenecks into elegant software solutions. We are always open to exploring synergies with visionary enterprises that are ready to architect their digital future alongside us.
+             As the core architect behind ECA Group’s rapid expansion, we understand that off-the-shelf software rarely fits a growing business. We are not just a mobility company; we are a SaaS (Software as a Service) Provider. </p>
+            <p className="text-on-surface-variant mb-8 text-lg"> We design and build customized web applications and AI-driven automated workflows tailored to the exact logistical and operational needs of our B2B partners. Whether you need to streamline your inventory, automate your customer service, or build a bespoke booking ecosystem, we translate your operational bottlenecks into elegant, high-efficiency software solutions.
             </p>
           </div>
           <div className="lg:col-span-2 grid md:grid-cols-2 gap-8">
             <div className="bg-surface-container-low p-10 rounded-2xl hover:bg-white transition-all border border-transparent hover:border-outline-variant/30">
-              <Terminal className="text-secondary mb-6" size={40} />
+              <Bot className="text-secondary mb-6" size={40} />
               <h3 className="text-xl font-headline font-bold text-primary mb-3">
-                Custom Middleware
+                AI-Driven Workflows
               </h3>
               <p className="text-on-surface-variant text-sm">
-                Scalable API layers connecting disparate mobility assets into a single unified dashboard.
+                Automate your customer service and replace manual operational bottlenecks with high-efficiency, intelligent automation.
               </p>
             </div>
             <div className="bg-surface-container-low p-10 rounded-2xl hover:bg-white transition-all border border-transparent hover:border-outline-variant/30">
-              <Shield className="text-secondary mb-6" size={40} />
+              <Database className="text-secondary mb-6" size={40} />
               <h3 className="text-xl font-headline font-bold text-primary mb-3">
-                Zero-Trust Security
+                Inventory Optimization
               </h3>
               <p className="text-on-surface-variant text-sm">
-                Bank-grade encryption for all financial and logistical data streams.
+                Streamline your physical and digital inventory management through custom-built, real-time tracking web applications.
               </p>
             </div>
             <div className="bg-surface-container-low p-10 rounded-2xl hover:bg-white transition-all border border-transparent hover:border-outline-variant/30">
               <Cloud className="text-secondary mb-6" size={40} />
               <h3 className="text-xl font-headline font-bold text-primary mb-3">
-                Edge Computing
+                Bespoke Booking Ecosystems
               </h3>
               <p className="text-on-surface-variant text-sm">
-                Processing data at the vehicle level to minimize latency and maximize safety.
+                Architect customized, end-to-end booking platforms tailored specifically to the unique logistical demands of your business.
               </p>
             </div>
             <div className="bg-surface-container-low p-10 rounded-2xl hover:bg-white transition-all border border-transparent hover:border-outline-variant/30">
-              <Network className="text-secondary mb-6" size={40} />
+              <Handshake className="text-secondary mb-6" size={40} />
               <h3 className="text-xl font-headline font-bold text-primary mb-3">
-                Interconnected Ecosystem
+                B2B Digital Synergy
               </h3>
               <p className="text-on-surface-variant text-sm">
-                Seamless integration between SewaBeli, Tourism, and Fleet assets.
+                Seamlessly integrate your operational workflows with our proprietary software to scale your enterprise alongside ours.
               </p>
             </div>
           </div>

@@ -24,42 +24,63 @@ const itemVariants = {
   }
 };
 
-const glowVariants = {
-  initial: { opacity: 0.4, scale: 0.8 },
-  animate: {
-    opacity: [0.4, 0.8, 0.4],
-    scale: [0.8, 1.2, 0.8],
-    transition: {
-      duration: 4,
-      repeat: Infinity,
-      ease: "easeInOut"
-    }
-  }
-};
-
 export default function VisionMission() {
   return (
     <section className="py-32 bg-surface-container-lowest relative overflow-hidden">
-      {/* Background decorative elements */}
-      <div className="absolute top-0 right-0 w-[800px] h-[800px] opacity-30 pointer-events-none translate-x-1/3 -translate-y-1/3">
-        <div className="aspect-square rounded-full border border-primary/10 absolute inset-0 animate-[spin_40s_linear_infinite]"></div>
-        <div className="aspect-square rounded-full border border-primary/5 absolute inset-20 animate-[spin_30s_linear_infinite_reverse]"></div>
-      </div>
+      {/* High-Contrast Technical Background */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        {/* Sharp Grid */}
+        <div className="absolute inset-0 opacity-[0.08]" 
+             style={{ backgroundImage: 'linear-gradient(to right, currentColor 1px, transparent 1px), linear-gradient(to bottom, currentColor 1px, transparent 1px)', backgroundSize: '60px 60px' }} 
+        />
 
-      {/* Floating Glow Orbs */}
-      <motion.div 
-        variants={glowVariants}
-        initial="initial"
-        animate="animate"
-        className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/20 rounded-full blur-[100px] pointer-events-none"
-      />
-      <motion.div 
-        variants={glowVariants}
-        initial="initial"
-        animate="animate"
-        className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-[120px] pointer-events-none"
-        style={{ transitionDelay: '2s' }}
-      />
+        {/* Vertical Scanning Beams */}
+        <motion.div 
+          animate={{ x: ['-100%', '200%'] }}
+          transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
+          className="absolute top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-primary/40 to-transparent"
+        />
+        <motion.div 
+          animate={{ x: ['-200%', '100%'] }}
+          transition={{ duration: 12, repeat: Infinity, ease: "linear" }}
+          className="absolute top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-secondary/40 to-transparent"
+        />
+
+        {/* Large Geometric Outlines */}
+        <motion.div 
+          animate={{ rotate: 360 }}
+          transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
+          className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] border border-primary/20 rounded-full flex items-center justify-center"
+        >
+          <div className="w-[80%] h-[80%] border border-primary/10 rounded-full" />
+          <div className="w-[60%] h-[60%] border border-primary/5 rounded-full" />
+          {/* Technical Marks */}
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-1 bg-primary/40" />
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-8 h-1 bg-primary/40" />
+        </motion.div>
+
+        <motion.div 
+          animate={{ rotate: -360 }}
+          transition={{ duration: 80, repeat: Infinity, ease: "linear" }}
+          className="absolute bottom-[-20%] left-[-10%] w-[800px] h-[800px] border border-secondary/20 rounded-full flex items-center justify-center opacity-50"
+        >
+          <div className="w-[70%] h-[70%] border border-secondary/10 rounded-full" />
+          <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-8 bg-secondary/40" />
+          <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1 h-8 bg-secondary/40" />
+        </motion.div>
+
+        {/* Pulsing Intersections */}
+        <motion.div 
+          animate={{ opacity: [0, 1, 0], scale: [0.5, 1.5, 0.5] }}
+          transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute top-1/3 left-1/4 w-32 h-32 bg-primary/10 rounded-full blur-2xl"
+        />
+        <motion.div 
+          animate={{ opacity: [0, 0.8, 0], scale: [0.8, 1.2, 0.8] }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 2 }}
+          className="absolute bottom-1/3 right-1/4 w-48 h-48 bg-secondary/10 rounded-full blur-3xl"
+        />
+      </div>
 
       <div className="max-w-7xl mx-auto px-8 relative z-10">
         <div className="grid lg:grid-cols-5 gap-x-16 lg:gap-x-24 gap-y-16 items-start">

@@ -15,11 +15,11 @@ export default function Marketing() {
             </p>
             <div className="grid grid-cols-2 gap-8">
               <div className="border-t border-white/10 pt-6">
-                <h4 className="font-headline font-bold text-2xl text-secondary mb-1">2.4M</h4>
+                <h4 className="font-headline font-bold text-2xl text-yellow-400 mb-1">2.4M</h4>
                 <p className="text-emerald-100/50 text-sm">Audience Reach</p>
               </div>
               <div className="border-t border-white/10 pt-6">
-                <h4 className="font-headline font-bold text-2xl text-secondary mb-1">158%</h4>
+                <h4 className="font-headline font-bold text-2xl text-yellow-400 mb-1">158%</h4>
                 <p className="text-emerald-100/50 text-sm">YoY Growth</p>
               </div>
             </div>
@@ -30,7 +30,7 @@ export default function Marketing() {
           <div className="relative h-[500px]">
             <div className="absolute inset-0 bg-secondary/20 rounded-full blur-[100px] animate-pulse"></div>
             <img
-              className="w-full h-full object-cover rounded-3xl relative z-10 border border-white/10"
+              className="w-full h-full object-cover rounded-3xl relative z-10"
               alt="dynamic close-up of a high-tech digital display panel"
               src="/marketingSection.png"
               referrerPolicy="no-referrer"
