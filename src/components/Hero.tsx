@@ -3,14 +3,18 @@ import { motion } from 'motion/react';
 export default function Hero() {
   return (
     <section className="relative min-h-[750px] flex items-center overflow-hidden bg-gradient-to-br from-primary to-primary-container">
-      {/* Background Video/Image Layer */}
+      {/* Background Video Layer */}
       <div className="absolute inset-0 opacity-40">
-        <img
+        <video
           className="w-full h-full object-cover"
-          alt="ECA Group Mobility Hub"
-          src="/background4.png"
-          referrerPolicy="no-referrer"
-        />
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/image_3.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-8 w-full">

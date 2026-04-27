@@ -41,12 +41,16 @@ export default function FleetManagement() {
                 <div className="w-3 h-3 rounded-full bg-secondary/20"></div>
                 <div className="w-3 h-3 rounded-full bg-primary/20"></div>
               </div>
-              <img
+              <video
                 className="w-full h-full object-cover"
-                alt="abstract professional data visualization dashboard"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLASegY4hB21AiSz86v4tFAWLqt9QtWRJg0Pmm8QAzqrvkp4khXaTN-IKGr62KBzrKHI5hJ2GdGhxMalkhkY8OGSiVN7vlJJFhwvCM8wRd0KTg0rTzz2sfdrQ0qZorQOs4EbnxAeuFpKtwlWBZUufMkKsuiWl5tMeh_DwjEaHuT5JtyQ9vrs8Ncy_EyUPl7yGuKEV598HROTW9teP4DrRcKG8NaXOOVaj-p2Ye4ChAGZ4NyKS-HP9sDtHlfMYGo7CAbsPiNcukCtw"
-                referrerPolicy="no-referrer"
-              />
+                autoPlay
+                loop
+                muted
+                playsInline
+              >
+                <source src="/fleet_system.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>

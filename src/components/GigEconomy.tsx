@@ -1,4 +1,5 @@
 import { Key, TrendingUp } from 'lucide-react';
+import CountUp from './CountUp';
 
 export default function GigEconomy() {
   return (
@@ -15,7 +16,9 @@ export default function GigEconomy() {
               />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-white p-8 rounded-xl shadow-xl max-w-xs border-l-4 border-secondary">
-              <p className="text-primary font-headline font-bold text-3xl mb-1">150</p>
+              <p className="text-primary font-headline font-bold text-3xl mb-1">
+                <CountUp end={150} />
+              </p>
               <p className="text-on-surface-variant text-sm font-label uppercase tracking-wider">
                 Active Partners
               </p>

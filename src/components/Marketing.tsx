@@ -1,9 +1,11 @@
+import CountUp from './CountUp';
+
 export default function Marketing() {
   return (
     <section id="marketing" className="py-24 bg-primary text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-8 relative">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div>
+        <div className="grid lg:grid-cols-12 gap-16 items-center">
+          <div className="lg:col-span-5">
             <span className="font-label text-secondary tracking-widest uppercase text-xs mb-4 block">
                Dynamic Marketing: Deploying Our Internal Success for Your Business
             </span>
@@ -15,11 +17,15 @@ export default function Marketing() {
             </p>
             <div className="grid grid-cols-2 gap-8">
               <div className="border-t border-white/10 pt-6">
-                <h4 className="font-headline font-bold text-2xl text-yellow-400 mb-1">2.4M</h4>
+                <h4 className="font-headline font-bold text-2xl text-yellow-400 mb-1">
+                  <CountUp end={2.4} decimals={1} suffix="M" />
+                </h4>
                 <p className="text-emerald-100/50 text-sm">Audience Reach</p>
               </div>
               <div className="border-t border-white/10 pt-6">
-                <h4 className="font-headline font-bold text-2xl text-yellow-400 mb-1">158%</h4>
+                <h4 className="font-headline font-bold text-2xl text-yellow-400 mb-1">
+                   <CountUp end={158} suffix="%" />
+                </h4>
                 <p className="text-emerald-100/50 text-sm">YoY Growth</p>
               </div>
             </div>
@@ -27,14 +33,18 @@ export default function Marketing() {
               Partner with us
             </button>
           </div>
-          <div className="relative h-[500px]">
-            <div className="absolute inset-0 bg-secondary/20 rounded-full blur-[100px] animate-pulse"></div>
-            <img
-              className="w-full h-full object-cover rounded-3xl relative z-10"
-              alt="dynamic close-up of a high-tech digital display panel"
-              src="/marketingSection.png"
-              referrerPolicy="no-referrer"
-            />
+          <div className="lg:col-span-7 relative">
+            <div className="absolute inset-0 bg-secondary/20 rounded-full blur-[120px] animate-pulse"></div>
+            <video
+              className="w-full h-auto rounded-3xl relative z-10 shadow-2xl scale-105"
+              autoPlay
+              loop
+              muted
+              playsInline
+            >
+              <source src="/marketing_section_vid.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>
